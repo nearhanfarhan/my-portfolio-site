@@ -77,6 +77,7 @@ function App() {
 				<Intro />
 				<Skills />
 				<Portfolio />
+				<Contact />
 				<Links />
 			</div>
 		</div>

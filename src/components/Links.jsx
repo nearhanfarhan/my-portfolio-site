@@ -4,9 +4,9 @@ import pdf from "../../public/assets/FC_CV.pdf";
 export const Links = () => {
   return (
     <motion.div
-      initial={{ opacity: 0, y: -20 }}
-      animate={{ opacity: 1, y: 0 }}
-      transition={{ delay: 3.5, duration: 0.8 }}
+      initial={{ opacity: 0, x: 20 }}
+      animate={{ opacity: 1, x: 0 }}
+      transition={{ delay: 4.5, duration: 0.8 }}
     >
       <div className="py-5 text-center">
         <div className="container max-w-screen-lg mx-auto">

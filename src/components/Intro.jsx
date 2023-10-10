@@ -26,7 +26,7 @@ function Intro() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-sm max-w-xl mb-6 font-bold"
          >
-            I'm a full-stack developer based in London, who graduated from Northcoders web development bootcamp in October 2023. 
+            I'm a Full-Stack Developer based in London, who graduated from the Northcoders web development bootcamp in October 2023. 
             <br />
             I'm currently looking for work opportunities where I can make an impact. 
             <br />
