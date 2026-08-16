@@ -18,19 +18,17 @@ function Intro() {
             transition={{ delay: 0.5, duration: 0.8 }}
             className="text-base md:text-xl mb-3 font-medium"
          >
-            Software Developer
+            Operations Engineering & Automation
          </motion.p>
          <motion.p
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
-            className="text-sm max-w-xl mb-6 font-bold"
+            className="text-sm max-w-xl mb-6 dark:text-stone-300"
          >
-            I'm a Full-Stack Developer based in London, who graduated from the Northcoders web development bootcamp in October 2023. 
-            <br />
-            I'm currently looking for work opportunities where I can make an impact. 
-            <br />
-            My interests include travel, food, music and sports.
+            I sit at the intersection of operations and engineering, building automations that replace manual work at scale. At Lime I've shipped a real-time Snowflake dispatch system, a scheduling platform for 120+ staff, and an AI-powered photo QA system using the Gemini API.
+            <br /><br />
+            MEng from Imperial College, operations management experience, and a Northcoders bootcamp in between. Outside work: cricket captain, vinyl collector, occasional DJ, and keen climber.
          </motion.p>
       </div>
    )
