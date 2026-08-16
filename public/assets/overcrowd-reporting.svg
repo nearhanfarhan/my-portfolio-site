@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 450" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, sans-serif">
+  <!-- Background -->
+  <rect width="800" height="450" fill="#1a1a1a"/>
+
+  <!-- Channel header bar -->
+  <rect width="800" height="44" fill="#1e1e1e"/>
+  <rect width="800" height="1" y="44" fill="#2d2d2d"/>
+  <text x="20" y="27" fill="#ccc" font-size="14" font-weight="600"># overcrowd-alerts</text>
+
+  <!-- Avatar -->
+  <rect x="20" y="62" width="36" height="36" rx="6" fill="#4a154b"/>
+  <text x="38" y="85" text-anchor="middle" fill="white" font-size="19">🔔</text>
+
+  <!-- Bot name -->
+  <text x="66" y="77" fill="#e8e8e8" font-size="14" font-weight="700">Overcrowd Bot</text>
+  <rect x="168" y="64" width="28" height="14" rx="3" fill="#4a154b"/>
+  <text x="182" y="75" text-anchor="middle" fill="white" font-size="8" font-weight="700">APP</text>
+  <text x="204" y="77" fill="#555" font-size="12">10:00 AM</text>
+
+  <!-- Slack attachment left border -->
+  <rect x="66" y="92" width="3" height="288" rx="1" fill="#36c5f0"/>
+
+  <!-- Card body -->
+  <rect x="69" y="92" width="700" height="288" fill="#1e1e1e"/>
+
+  <!-- Card header text -->
+  <text x="86" y="120" fill="#e8e8e8" font-size="14" font-weight="700">🚲  Camden — Overcrowded Bays  ·  Thu 12 Aug, 10:00</text>
+
+  <!-- Divider -->
+  <rect x="86" y="130" width="666" height="1" fill="#2d2d2d"/>
+
+  <!-- Bay row 1 -->
+  <text x="86" y="158" fill="#e8e8e8" font-size="13" font-weight="600">📍  Granary Square</text>
+  <text x="86" y="176" fill="#888" font-size="12">Capacity: 0 remaining  ·  12 vehicles</text>
+
+  <!-- Bay row 2 -->
+  <text x="86" y="208" fill="#e8e8e8" font-size="13" font-weight="600">📍  Camden Market — Chalk Farm Rd</text>
+  <text x="86" y="226" fill="#888" font-size="12">Capacity: 0 remaining  ·  9 vehicles</text>
+
+  <!-- Bay row 3 -->
+  <text x="86" y="258" fill="#e8e8e8" font-size="13" font-weight="600">📍  Mornington Crescent</text>
+  <text x="86" y="276" fill="#888" font-size="12">Capacity: 0 remaining  ·  8 vehicles</text>
+
+  <!-- Divider -->
+  <rect x="86" y="295" width="666" height="1" fill="#2d2d2d"/>
+
+  <!-- View on Map button -->
+  <rect x="86" y="308" width="130" height="34" rx="4" fill="none" stroke="#555" stroke-width="1.5"/>
+  <text x="151" y="330" text-anchor="middle" fill="#bbb" font-size="12" font-weight="500">🗺  View on Map</text>
+
+  <!-- Accept Task button -->
+  <rect x="226" y="308" width="124" height="34" rx="4" fill="#007a5a"/>
+  <text x="288" y="330" text-anchor="middle" fill="white" font-size="12" font-weight="600">✓  Accept Task</text>
+
+  <!-- Bottom tech stack -->
+  <rect x="86" y="358" width="144" height="22" rx="4" fill="#1a56db" opacity="0.85"/>
+  <text x="158" y="373" text-anchor="middle" fill="white" font-size="10" font-weight="600">Google Cloud Functions</text>
+
+  <rect x="240" y="358" width="80" height="22" rx="4" fill="#29b5e8" opacity="0.85"/>
+  <text x="280" y="373" text-anchor="middle" fill="white" font-size="10" font-weight="600">Snowflake</text>
+
+  <rect x="330" y="358" width="50" height="22" rx="4" fill="#4a154b" opacity="0.9"/>
+  <text x="355" y="373" text-anchor="middle" fill="white" font-size="10" font-weight="600">Slack</text>
+
+  <rect x="390" y="358" width="60" height="22" rx="4" fill="#1a73e8" opacity="0.85"/>
+  <text x="420" y="373" text-anchor="middle" fill="white" font-size="10" font-weight="600">BigQuery</text>
+</svg>

@@ -1,5 +1,23 @@
 export default [
   {
+    title: "VinylID",
+    images: ["/assets/vinyl-id-1.png", "/assets/vinyl-id-2.png"],
+    stack: ["Python", "FastAPI", "Google Cloud Run", "Google Cloud Vision", "Discogs API"],
+    links: [
+      { type: "Live App", url: "https://vinyl-id-654163070814.us-central1.run.app" },
+    ],
+    description:
+      "A mobile-friendly web app for identifying vinyl records in the field. Point your camera at a cover or label: the app tries the barcode first, falls back to Google Cloud Vision OCR, then searches Discogs by catalogue number or free text. Returns genre, style, year, label, pressing details, community rating, tracklist, and links to Discogs and YouTube. Deployed on Google Cloud Run.",
+  },
+  {
+    title: "Spotify × Discogs Matcher",
+    imgUrl: "/assets/discogs-matcher.png",
+    stack: ["Python", "Spotify API", "Discogs API", "rapidfuzz"],
+    links: [],
+    description:
+      "A Python script that pulls your Spotify liked songs, crawls a Discogs seller's full vinyl inventory using an adaptive sharding algorithm to work around API pagination limits, and fuzzy-matches artists to surface records you might want to buy. Handles disambiguation suffixes, multi-artist releases, and rate limiting. Outputs results to CSV.",
+  },
+  {
     title: "SafeTrakr",
     imgUrl: "/assets/safetrakr.png",
     stack: ["React Native", "Expo", "JavaScript", "Firebase"],
